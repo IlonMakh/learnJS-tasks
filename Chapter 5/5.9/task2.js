@@ -1,0 +1,10 @@
+let user = {
+  name: "John",
+  age: 30,
+};
+
+function count(user) {
+  return Object.entries(user).length;
+}
+
+alert(count(user)); // 2
